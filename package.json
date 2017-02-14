@@ -1,0 +1,27 @@
+{
+  "name": "clover-dev-pay-encryption",
+  "version": "0.0.1",
+  "description": "This package will handle the full encryption for Clover's Developer Pay Api",
+  "main": "./lib/encryption.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wnamen/clover-dev-pay-encryption.git"
+  },
+  "keywords": [
+    "clover", "encryption", "developer pay api"
+  ],
+  "author": "William Namen & Matthew Laguardia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wnamen/clover-dev-pay-encryption/issues"
+  },
+  "homepage": "https://github.com/wnamen/clover-dev-pay-encryption#readme",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "require": "^2.4.20",
+    "rsa-pem-from-mod-exp": "^0.8.4"
+  }
+}
